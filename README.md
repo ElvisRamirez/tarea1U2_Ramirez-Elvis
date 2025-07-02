@@ -97,6 +97,8 @@ docker-compose ps
 # Ejecutar script de seeds
 npm run seed
 ```
+**Imagen : poblar datos**
+![Estructura](/img/poblacion.jpeg)
 
 ### Paso 6: Ejecutar las Consultas
 ```bash
@@ -113,25 +115,39 @@ npm start
 
 ---
 
-## 📷 Capturas de Pantalla
+
 
 ### 🐳 Entorno Docker
 ![Docker Containers](https://via.placeholder.com/800x400/2496ED/ffffff?text=Docker+Containers+Running)
 *Contenedores MongoDB y Mongo Express ejecutándose*
+**Imagen : docker**
+![Estructura](/img/docker.jpeg)
+
 
 ### 🌐 Mongo Express - Vista de Colecciones
 ![Mongo Express Collections](https://via.placeholder.com/800x400/4EA94B/ffffff?text=Mongo+Express+-+Collections+View)
 *Interfaz de Mongo Express mostrando las colecciones: usuarios, laboratorios, equipos*
+**Imagen : MOngo**
+![Estructura](/img/mongodatos.jpeg)
 
 ### 📊 Resultados de Consultas
 ![Query Results](https://via.placeholder.com/800x400/43853D/ffffff?text=Query+Results+in+Terminal)
 *Resultados de las consultas avanzadas ejecutadas en terminal*
+**Imagen : querys**
+![Estructura](/img/ejecucion.jpeg)
 
 ### 🔍 Consulta de Agregación
 ![Aggregation Pipeline](https://via.placeholder.com/800x400/880000/ffffff?text=Aggregation+Pipeline+Results)
 *Resultados de la consulta de agregación mostrando estadísticas por laboratorio*
+**Imagen : querys**
+![Estructura](/img/ejecucion2.jpeg)
+**Imagen : querys**
+![Estructura](/img/ejecucion3.jpeg)
+**Imagen : querys**
+![Estructura](/img/ejecucion4.jpeg)
+**Imagen : querys**
+![Estructura](/img/ejecucion2.jpeg)
 
----
 
 ## 🗂️ Estructura del Proyecto
 
@@ -339,7 +355,6 @@ El proyecto incluye un conjunto completo de datos de prueba que se cargan autom�
 ### 📈 Salida de Consultas
 Al ejecutar `npm run queries`, deberías ver:
 
-```
 🔍 EJECUTANDO CONSULTAS AVANZADAS
 
 1️⃣ LISTAR TODOS LOS USUARIOS
