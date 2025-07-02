@@ -1,0 +1,24 @@
+{
+  "name": "tarea1",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "elvis",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "seed": "node src/seeds/seedData.js",
+    "queries": "node src/queries/consultas.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "dependencies": {
+    "dotenv": "^17.0.0",
+    "mongoose": "^8.16.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
